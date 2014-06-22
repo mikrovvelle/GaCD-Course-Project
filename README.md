@@ -21,4 +21,9 @@ The script may take a minute or two depending on your machine's power. It will i
 - `fulldata`: the source data for the large unsummarized output data, and
 - `fulldata_means`: the means of the source data per subject and activity.
 
+The two output files are put into a new 'results' directory.
+
+1. `stdmeandata_UCI_HAR.txt` (from `fulldata`)
+2. `summaryTable_UCI_HAR.txt` (from `fulldata_means`)
+
 More information on how this is done, and details of the data, can be found in the `CodeBook.md` file.
