@@ -89,7 +89,9 @@ Note that for the 2nd file, each subject is given a single row, and each (measur
 
 https://class.coursera.org/getdata-004/forum/thread?thread_id=262
 
-## Technical notes
+Both files should be importable into Excel or R with default tools: comma-separation, double-quote text qualifiers.
+
+## Technical note
 
 R's `read.table` function was used for importation, with `sep=""` to allow for multiple whitespace characters to be imported.
 
